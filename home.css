@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 700px){
+    .whole{
+        width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .logo img{
+        width: 100px;
+        position: absolute;
+        left: 80px;
+    }
+    .amount{
+        display: flex;
+        justify-content: space-between;
+    }
+    .amount p{
+        margin: 50px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #243AFE;
+    }
+    .size{
+        display: flex;
+        justify-content: space-between;
+        width: 230px;
+        background-color: #243AFE;
+        color: white;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .size p{
+        padding: 10px 10px;
+        font-weight: bold;
+    }
+    .refill{
+        display: flex;
+        justify-content: space-between;
+    }
+    .refill p{
+        margin: 50px;
+        font-weight: bold;
+        color: #243AFE;
+        margin-top: 10px;
+    }
+    .whole button{
+        background-color: #243AFE;
+        border: none;
+        border-radius: 50px;
+        color: white;
+        width: 150px;
+        padding: 10px 10px;
+        margin-top: 30px;
+    }
+    .anchor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .anchor a{
+        text-decoration: none;
+        color: #243AFE;
+        margin: 10px;
+    }
+    .button{
+        position: relative;
+        top: 80px;
+    }
+}
